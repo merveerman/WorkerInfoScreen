@@ -1,0 +1,80 @@
+﻿@{
+    ViewBag.Title = "Login";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="~/Content/jquery.mobile-1.4.5.min.css" rel="stylesheet" />
+    <link href="~/Content/jquery.mobile.theme-1.4.5.min.css" rel="stylesheet" />
+    <link href="~/Content/select2.css" rel="stylesheet" />
+    <link href="~/Content/toastr.css" rel="stylesheet" />
+    <link href="~/Content/mymobile.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.4.1.js"></script>
+    <script src="~/Scripts/toastr.js"></script>
+    <script src="~/Scripts/loading.js"></script>
+    <script src="~/Scripts/jExpand.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+    <script src="~/ScriptsCustom/WorkerInformation.js"></script>
+
+</head>
+<body>
+    <div data-role="page">
+
+        <div data-role="content">
+            <div class="tab-pane">
+                <div style="width: 70%;">
+                    <table id="tbl_doc" data-role="collapsible" class="table table-bordered" style="width: 100%">
+                        <thead>
+                            <tr title="Click to expand/collapse">
+                                <th class="tableheadcolumn" style="text-align: center; background-color: #f5f5f5"></th>
+                                <th class="tableheadcolumn"><a shorttype_worker_information="" short_worker_information="name">Kişi</a></th>
+                                <th class="tableheadcolumn"><a shorttype_worker_information="" short_worker_information="tckn">T.C. No</a></th>
+                                <th class="tableheadcolumn"><a shorttype_worker_information="" short_worker_information="phone">Telefon</a></th>
+                                <th class="tableheadcolumn"><a shorttype_worker_information="" short_worker_information="birthPlace">Doğum Yeri</a></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="tableheadcolumn" colspan="5" style="text-align: center">-Kayıt Bulunamadı-</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div id="modalInfo" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Kişi Bilgileri</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <ul class="list-group" id="lstWorkerInfo">
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Kapat</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>

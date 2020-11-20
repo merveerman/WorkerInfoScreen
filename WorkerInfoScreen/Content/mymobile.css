@@ -1,0 +1,46 @@
+﻿.ui-bar-b, .ui-page-theme-b .ui-bar-inherit, html .ui-bar-b .ui-bar-inherit, html .ui-body-b .ui-bar-inherit, html body .ui-group-theme-b .ui-bar-inherit {
+    background-color: #3187C2;
+    border-color: #176193;
+    color: #fff;
+    text-shadow: 0 1px 0 #111;
+    font-weight: 700;
+}
+.ui-page-theme-b .ui-btn, html .ui-bar-b .ui-btn, html .ui-body-b .ui-btn, html body .ui-group-theme-b .ui-btn, html head+body .ui-btn.ui-btn-b, .ui-page-theme-b .ui-btn:visited, html .ui-bar-b .ui-btn:visited, html .ui-body-b .ui-btn:visited, html body .ui-group-theme-b .ui-btn:visited, html head+body .ui-btn.ui-btn-b:visited {
+    background-color: #3187C2;
+    border-color: #1B6293;
+    color: #fff;
+    text-shadow: 0 1px 0 #3187C2;
+}
+.ui-page-theme-b .ui-btn:hover, html .ui-bar-b .ui-btn:hover, html .ui-body-b .ui-btn:hover, html body .ui-group-theme-b .ui-btn:hover, html head+body .ui-btn.ui-btn-b:hover {
+    background-color: #1C6699;
+    border-color: #1B6293;
+    color: #fff;
+    text-shadow: 0 1px 0 #3187C2;
+}
+.ui-content {
+    border-width: 0;
+    overflow: visible;
+    overflow-x: hidden;
+    padding: 1em;
+    margin-top: 10px;
+}
+
+
+
+
+.inputset>a
+{
+    float:right;
+}
+
+.inputset>.inputblock
+{
+    overflow: hidden; 
+    padding-right: .5em;
+}
+.inputset>.inputblock-only-line
+{
+    overflow: hidden; 
+    padding-right: .5em;
+    display: inline;
+}
